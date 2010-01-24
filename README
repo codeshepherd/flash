@@ -1,0 +1,16 @@
+Download Flex SDK (Free) from http://www.adobe.com/products/flex/flexdownloads/
+Follow installation instructions from http://edutechwiki.unige.ch/en/Adobe_Flex
+
+
+download actionscriptid.vim file from  http://www.vim.org/scripts/script.php?script_id=2941
+follow installation instructions from http://www.vim.org/scripts/script.php?script_id=2941
+install details
+Throwing it into you \\\"syntax\\\" directory 
+Then adding this line to your syntax/actionscript.vim 
+
+runtime! syntax/actionscriptid.vim 
+
+sudo cp ~/Downloads/actionscriptid.vim /usr/share/vim/vim72/syntax/
+sudo cp ~/Downloads/actionscriptid.vim /usr/share/vim/vim70/syntax/
+
+
